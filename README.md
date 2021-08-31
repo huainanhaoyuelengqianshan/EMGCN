@@ -14,7 +14,7 @@ You can download our processed dataset from: https://drive.google.com/file/d/12X
 # Running
 
 ```
-python -u network_alignment.py --dataset_name zh_en --source_dataset data/networkx/zh_enID/zh/graphsage/ --target_dataset data/networkx/zh_enID/en/graphsage --groundtruth data/networkx/zh_enID/dictionaries/groundtruth EMGCN --sparse --log --local_rank
+python -u network_alignment.py --dataset_name zh_en --source_dataset data/networkx/zh_enID/zh/graphsage/ --target_dataset data/networkx/zh_enID/en/graphsage --groundtruth data/networkx/zh_enID/dictionaries/groundtruth EMGCN --sparse --log
 ```
 
 # Citation
